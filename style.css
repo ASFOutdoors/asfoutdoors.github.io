@@ -729,3 +729,27 @@ VIDEOS PAGE
         grid-template-columns:1fr;
     }
 }
+
+
+/* ==========================================
+FOOTER SOCIALS
+========================================== */
+
+.footer-links{
+    margin-top:15px;
+
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.footer-links a{
+    color:#d0d0d0;
+    text-decoration:none;
+    transition:.2s;
+}
+
+.footer-links a:hover{
+    color:#e56a13;
+}

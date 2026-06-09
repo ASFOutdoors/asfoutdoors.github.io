@@ -1,10 +1,11 @@
-ASF Outdoors template.
+<link rel="icon" type="image/png" href="favicon.png">
 
-Replace:
-images/hero.jpg
-images/video1.jpg ... video4.jpg
-images/post1.jpg ... post4.jpg
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2TNBQC8MYC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-You can use screenshots/thumbnails from your YouTube videos.
-
-Upload to GitHub Pages or Cloudflare Pages.
+  gtag('config', 'G-2TNBQC8MYC');
+</script>
